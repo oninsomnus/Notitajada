@@ -234,3 +234,16 @@ label {
     padding-bottom: 15px;
     color: #eeb83c;
 }
+
+.notfound {
+	background: url(../img/header-404.jpg) no-repeat bottom right;
+	background-size: cover;
+	color: #cfcfcf;
+	position: relative;
+	height: 100%;
+}
+.notfound p {
+	color: rgba(255,255,255,0.8);
+	font-size: 20px;
+	margin-bottom: 20px;
+}
