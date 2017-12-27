@@ -19,7 +19,7 @@
 			La enfermedad que padece, por el momento, no tiene cura. Sólo puede adaptar su dieta, para que sea baja en azúcares. </p>
 				<nav aria-label="...">
 				  <ul class="pager">
-				    <li><a href="#">Siguiente</a></li>
+				    <li><a href="{{ route('noticia2') }}">Siguiente</a></li>
 				  </ul>
 				</nav>
 		</div>

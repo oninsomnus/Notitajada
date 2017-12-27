@@ -23,6 +23,8 @@ Route::post('/registrado', 'RegistersController@registrado');
 
 Route::get('noticia', 'pageController@noticia')->name('noticia');
 
+Route::get('noticia2', 'pageController@noticia2')->name('noticia2');
+
 Route::get('/home', 'HomeController@index')->name('home');
 
 Route::post('login', 'Auth\LoginController@login');

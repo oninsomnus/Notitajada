@@ -32,4 +32,9 @@ class pageController extends Controller
     {
     	return view('noticia');
     }
+
+        public function noticia2()
+    {
+        return view('noticia2');
+    }
 }
